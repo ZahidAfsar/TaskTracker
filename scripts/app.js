@@ -1,22 +1,31 @@
 
 let todoElement = document.getElementById("todoElement");
+
 let inProgressElement = document.getElementById("inProgressElement");
 let completedElement = document.getElementById("completedElement");
+
 let priorityElement = document.getElementById("priorityElement");
+
 let nameElement = document.getElementById("nameElement");
 let descriptionElement = document.getElementById("descriptionElement");
 let dateElement = document.getElementById("dateElement");
+
 let addTaskButton = document.getElementById("addTaskButton");
+
 let injectTodoElement = document.getElementById("injectTodoElement");
 let injectInProgressElement = document.getElementById("injectInProgressElement");
 let injectCompletedElement = document.getElementById("injectCompletedElement");
+
 let saveButton = document.getElementById("saveButton");
+
 let inputNameElement = document.getElementById("inputNameElement");
 let inputDescriptionElement = document.getElementById("inputDescriptionElement");
 let inputDateElement = document.getElementById("inputDateElement");
 let inputPriorityElement = document.getElementById("inputPriorityElement");
 let inputStatusElement = document.getElementById("inputStatusElement");
+
 let addButton = document.getElementById("addButton");
+
 let inputNameElement1 = document.getElementById("inputNameElement1");
 let inputDescriptionElement1 = document.getElementById("inputDescriptionElement1");
 let inputDateElement1 = document.getElementById("inputDateElement1");
@@ -24,7 +33,9 @@ let inputPriorityElement1 = document.getElementById("inputPriorityElement1");
 let inputStatusElement1 = document.getElementById("inputStatusElement1");
 
 let todos = [];
+
 let inProgress = [];
+
 let completed = [];
 
 addButton.addEventListener('click', () => {
