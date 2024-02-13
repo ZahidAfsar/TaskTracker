@@ -80,7 +80,7 @@ const createDivTask = () => {
 
     let dateLabel = document.createElement("p");
     dateLabel.classList.add("ms-3", "mb-4");
-    dateLabel.textContent = "Due Date";
+    dateLabel.textContent = "Date";
     dateLabel.style.fontSize = "20px";
     dateLabel.style.color = "white"; 
 
